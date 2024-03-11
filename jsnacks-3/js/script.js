@@ -9,4 +9,8 @@ const numberPc = [];
 for (let i = 0; i < 6; i++) {
     const userNumber = parseInt(prompt(`Dimmi un numero`));
     console.log(userNumber);
+    if (userNumber % 2 != 0) {
+        numberPc.push(userNumber)
+    }
 }
+console.log(numberPc)
